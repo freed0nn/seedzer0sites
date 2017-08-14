@@ -15,7 +15,8 @@
 
 ## 环境
 Ubuntu/debian 等Linux操作系统，安装有ag 和curl
-`sudi apt insatll silversearcher-ag curl`
+
+`sudo apt insatll silversearcher-ag curl`
 
 ## 使用步骤
 * 启动zeronet
