@@ -1,5 +1,5 @@
 # seedzer0site
-[Chinses version](./README_zh.md)
+[中文手册](./README_zh.md)
 
 Scripts is used to help people to be a zeronet seeder/node **actively**.
 Usually, one will post his zeronet site url to some forums or his friend's blog, or sites like http://127.0.0.1:43110/1LtvsjbtQ2tY7SCtCZzC4KhErqEK3bXD4n , so that others can click his url and help him distribute his site, so this url will exist in your computer disk if you have visited thoses forums or blogs.
@@ -18,6 +18,13 @@ ubuntu/debian or other linux
 `python zeronet.py`
 
 * Visit some zerosites if it is your first time to run zeronet
+http://127.0.0.1:43110/Talk.ZeroNetwork.bit/
+http://127.0.0.1:43110/NewGFWTalk.bit/
+http://127.0.0.1:43110/mydf.bit/
+http://127.0.0.1:43110/Board.ZeroNetwork.bit/
+http://127.0.0.1:43110/0list.bit/
+next is mine.
+http://127.0.0.1:43110/1G7jmLghk4h3RiBy4QLGnR4rih7zj7QkMV/
 
 * Run get_all_zeroURL.sh
 ```
