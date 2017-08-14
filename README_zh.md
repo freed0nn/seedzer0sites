@@ -10,6 +10,8 @@
  1. 先简单访问几个知名站点，作为起点
  2. 在硬盘中的文件中搜寻符合zeronet格式的链接
  3. curl访问这些链接
+ 
+ 先访问某个论坛，这个论坛里有一些人的个人博客和其他导航站点的地址，那么访问论坛后硬盘里就有了这些地址，筛选出这些地址存到列表里。再用脚本挨个访问列表里的地址，硬盘里就有了新的“论坛”，再从新的“论坛”里找出新的地址添加到列表里。
 上面的2和3步骤循环几次，就可以得到大量的zeronet站点，刚开始的几步，数量应该是几何级增长的。
 我重复**3次**，就得到了2300多个站点。
 
@@ -49,8 +51,9 @@ chmod +x get_all_zeroURL.sh seed.sh runseed.sh
 * 获取硬盘中的所有的zeronet链接
 `./get_all_zeroURL.sh PATH/TO/data`
 PATH/TO/data 为zeronet的data目录的路径，执行大概会要5-15分钟，和目录大小/硬盘读写速度有关。
-结束后会得到common_pureURL.lst 和 bit_pureURL.lst，common_pureURL.lst里面是`1G7jmLghk4h3RiBy4QLGnR4rih7zj7QkMV`这样的链接；
- bit_pureURL.lst里面是`Talk.ZeroNetwork.bit`这样的链接。
+结束后会得到common_pureURL.lst 和 bit_pureURL.lst，[common_pureURL.lst](./common_pureURL.lst)里面是`1G7jmLghk4h3RiBy4QLGnR4rih7zj7QkMV`这样的链接；
+
+ [bit_pureURL.lst](./bit_pureURL.lst)里面是`Talk.ZeroNetwork.bit`这样的链接。
 
 * 做种/访问这些站点
  `./runseed.sh common_pureURL.lst && ./runseed.sh bit_pureURL.lst`
