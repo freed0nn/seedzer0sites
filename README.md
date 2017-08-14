@@ -1,4 +1,6 @@
 # seedzer0site
+[Chinses version](./README_zh.md)
+
 Scripts is used to help people to be a zeronet seeder/node **actively**.
 Usually, one will post his zeronet site url to some forums or his friend's blog, or sites like http://127.0.0.1:43110/1LtvsjbtQ2tY7SCtCZzC4KhErqEK3bXD4n , so that others can click his url and help him distribute his site, so this url will exist in your computer disk if you have visited thoses forums or blogs.
 
