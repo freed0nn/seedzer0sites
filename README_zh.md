@@ -23,13 +23,21 @@ Ubuntu/debian 等Linux操作系统，安装有ag 和curl
 `python zeronet.py`
 
 * 如果是第一次运行zeronet的话，需要简单访问几个人气多的站点
+
 如：
+
   http://127.0.0.1:43110/Talk.ZeroNetwork.bit/
+  
   http://127.0.0.1:43110/NewGFWTalk.bit/
+  
   http://127.0.0.1:43110/mydf.bit/
+  
   http://127.0.0.1:43110/Board.ZeroNetwork.bit/
+  
   http://127.0.0.1:43110/0list.bit/
+  
 下面这个是我的站点
+
  http://127.0.0.1:43110/1G7jmLghk4h3RiBy4QLGnR4rih7zj7QkMV/
   
 
