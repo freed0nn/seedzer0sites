@@ -18,13 +18,21 @@ ubuntu/debian or other linux
 `python zeronet.py`
 
 * Visit some zerosites if it is your first time to run zeronet
+
 http://127.0.0.1:43110/Talk.ZeroNetwork.bit/
+
 http://127.0.0.1:43110/NewGFWTalk.bit/
+
 http://127.0.0.1:43110/mydf.bit/
+
 http://127.0.0.1:43110/Board.ZeroNetwork.bit/
+
 http://127.0.0.1:43110/0list.bit/
+
 next is mine.
+
 http://127.0.0.1:43110/1G7jmLghk4h3RiBy4QLGnR4rih7zj7QkMV/
+
 
 * Run get_all_zeroURL.sh
 ```
