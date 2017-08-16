@@ -11,10 +11,12 @@ It is obviously that `curl --silent http://$ZERO_HOST:43110/$SITE > /dev/null` p
 
 ## Rely on
 ubuntu/debian or other linux
+
 `sudo apt install silversearcher-ag curl`
 
 ## Steps
 * Run zeronet programm
+
 `python zeronet.py`
 
 * Visit some zerosites if it is your first time to run zeronet
